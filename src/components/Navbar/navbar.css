@@ -1,0 +1,167 @@
+.cus-d2 {
+    font-size: 40px!important;
+}
+
+.responsive-logo {
+    height: 46px;
+}
+
+.header-bg {
+    margin: 8px;
+    background-color: #FFF7F4;
+}
+
+.header-content {
+    height: 720px;
+}
+
+.nav-item {
+    margin-left: 0px;
+}
+
+.navbar-nav {
+    margin-top: 24px;
+}
+
+.custom-input {
+    height: 64px;
+    border-radius: 50px;
+    border: 2px solid rgba(0, 0, 0, .20);
+    background-color: transparent;
+    padding: 0 2px 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.transparent-input {
+    border: none;
+    background-color: transparent;
+    flex-grow: 2;
+}
+
+.transparent-input:focus {
+    outline: none;
+}
+
+.custom-button {
+    height: 56px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F55F4B;
+    padding: 0 24px;
+    color: #ffffff;
+    align-self: center;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .header-bg {
+        margin: 8px;
+    }
+    .header-content {
+        height: 840px;
+    }
+    .nav-item {
+        margin-left: 0px;
+    }
+    .navbar-nav {
+        margin-top: 24px;
+    }
+    .custom-input {
+        height: 72px;
+        padding: 0 4px 0 32px;
+        font-size: 16px;
+    }
+    .custom-button {
+        height: 60px;
+        padding: 0 32px
+    }
+    .responsive-logo {
+        height: 50px;
+    }
+    .cus-d2 {
+        font-size: 48px!important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .header-bg {
+        margin: 16px;
+    }
+    .header-content {
+        height: 960px;
+    }
+    .nav-item {
+        margin-left: 0px;
+    }
+    .navbar-nav {
+        margin-top: 24px;
+    }
+    .responsive-logo {
+        height: 54px;
+    }
+    .cus-d2 {
+        font-size: 56px!important;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .header-bg {
+        margin: 20px;
+    }
+    .header-content {
+        height: 792px;
+    }
+    .nav-item {
+        margin-left: 24px;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+    }
+    .custom-input {
+        height: 80px;
+        padding: 0 6px 0 40px;
+        font-size: 20px;
+    }
+    .custom-button {
+        height: 64px;
+        padding: 0 32px
+    }
+    .responsive-logo {
+        height: 58px;
+    }
+    .cus-d2 {
+        font-size: 60px!important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .header-bg {
+        margin: 24px;
+    }
+    .header-content {
+        height: 800px;
+    }
+    .nav-item {
+        margin-left: 48px;
+    }
+    .responsive-logo {
+        height: 64px;
+    }
+    .cus-h1 {
+        font-size: 72px!important;
+    }
+}

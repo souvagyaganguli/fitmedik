@@ -1,0 +1,31 @@
+.stats_bg{
+    background-color: #1E1E21;
+    /* height: 1171px; */
+  }
+  .stats_txt{
+    font-weight: 300;
+    font-size: 72px;
+  }
+  
+  #txt-color{
+    font-weight: 500;
+    color: #F55F4B;
+  }
+  
+  .card{
+    border: 0 !important;
+  }
+  .card-title{
+    font-size: 88px;
+    font-weight: 300;
+    color: #FFE092;
+  }
+  
+  .card-body{
+    background-color: #1E1E21;
+  }
+  
+  .card-text{
+    font-weight: 300;
+    font-size: 28px;
+  }

@@ -1,0 +1,21 @@
+/* Why Fitmedik ? */
+
+.reason_card-title{
+    font-weight: 600;
+    font-size: 28px;
+  }
+  
+  .reason_card-text{
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 0.6;
+  }
+  .reason_icon{
+    height: 96px;
+    width: 96px;
+    color: white;
+  }
+  
+  .reason_grid{
+    padding-right: 120px;
+  }
