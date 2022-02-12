@@ -1,0 +1,18 @@
+.benefits {
+    background-color: #FFF2EB;
+}
+
+.benefits-heading{
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 992px) {
+    .benefits {
+        background-image: url(benefits-background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+}

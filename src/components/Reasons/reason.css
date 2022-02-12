@@ -17,5 +17,29 @@
   }
   
   .reason_grid{
-    padding-right: 120px;
+    padding-right: 60px;
   }
+
+  .line1{
+    border-right: 2px solid #959595;
+    border-bottom: 2px solid #959595;
+    height: 400px;
+  }
+  .line2{
+    border-bottom: 2px solid #959595;
+  }
+  .line3{
+    border-right: 2px solid #959595;
+    height: 400px;
+  }
+  .line4{
+    border:none;
+  }
+ 
+
+  @media (max-width: 768px) {
+    .line1,.line2,.line3,.line4 {
+        border: none;
+        padding-left: 0px!important;
+    }
+}

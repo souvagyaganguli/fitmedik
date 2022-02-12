@@ -22,7 +22,6 @@ export default class Statistics extends Component {
                             duration: 850,
                             easing: "swing",
                             step: function () {
-                                //$this.text(Math.ceil(this.countNum));
                                 $this.text(
                                     Math.ceil(this.countNum).toLocaleString("en")
                                 );
@@ -43,35 +42,39 @@ export default class Statistics extends Component {
 
     render() {
         return (
-            <div className='stats_bg'>
+            <section className='stats_bg'>
                 <div className='container pt-5 pb-5'>
-                    <h1 className='stats_txt text-white'>Highest <span id='txt-color'>Suicide Rates</span></h1>
-                    <h1 className='text-white stats_txt' style={{ paddingBottom: " 136px" }}>among all the professions</h1>
+                    <h1 className='stats_txt text-white cus-d2'>Highest <span id='txt-color'>Suicide Rates</span></h1>
+                    <h1 className='text-white stats_txt cus-d2' style={{ paddingBottom: " 136px" }}>among all the professions</h1>
                     <div className="card-group">
                         <div className="card">
-                            <div className="card-body" id="counter-box">
-                                <span className="card-title counter" data-number="86"></span> <span className='card-title'>%</span>
-                                <p className="card-text text-white">Experience <br /> Anxiety</p>
+                            <div className="card-body " id="counter-box">
+                                <div className="d-flex">
+                                    <span className="card-title counter cus-d1 " data-number="86"></span> <span className='card-title cus-d1'>%</span>
+                                </div>
+                                <p className="card-text text-white fs-3">Experience <br /> Anxiety</p>
                             </div>
                         </div>
                         <div className="card">
                             <div className="card-body" id="counter-box">
-                                <span className="card-title counter" data-number="76"></span> <span className='card-title'>%</span>
+                                <div className="d-flex">
+                                    <span className="card-title counter cus-d1" data-number="76"></span> <span className='card-title cus-d1'>%</span>
+                                </div>
+                                <p className="card-text text-white fs-3">Face Exhaustion <br /> and burnout</p>
 
-                                {/* <h5 className="card-title counter" data-count="7600">0</h5> */}
-                                <p className="card-text text-white">Face Exhaustion <br /> and burnout</p>
                             </div>
                         </div>
                         <div className="card">
                             <div className="card-body" id="counter-box">
-                                <span className="card-title counter" data-number="93"></span> <span className='card-title'>%</span>
-                                {/* <h5 className="card-title counter" data-count="9300">0</h5> */}
-                                <p className="card-text text-white">Experience <br /> Stress</p>
+                                <div className="d-flex">
+                                    <span className="card-title counter cus-d1" data-number="93"></span> <span className='card-title cus-d1'>%</span>
+                                </div>
+                                <p className="card-text text-white fs-3">Experience <br /> Stress</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div >
+            </section >
         )
     }
 }

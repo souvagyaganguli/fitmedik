@@ -3,38 +3,96 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Statistics */
-
-/* .stats_bg{
-  background-color: #1E1E21;
+/* Statistics number */
+.cus-d1 {
+  font-size: 56px!important;
 }
-.stats_txt{
-  font-weight: 300;
-  font-size: 72px;
-}
-
-#txt-color{
-  font-weight: 500;
-  color: #F55F4B;
+@media (min-width: 576px) {
+  .cus-d1 {
+      font-size: 64px!important;
+  }
 }
 
-.card{
-  border: 0 !important;
+@media (min-width: 768px) {
+  .cus-d1 {
+      font-size: 72px!important;
+  }
 }
-.card-title{
-  font-size: 88px;
-  font-weight: 300;
-  color: #FFE092;
+@media (min-width: 992px) {
+      .cus-d1 {
+      font-size: 76px!important;
+  }
+}
+@media (min-width: 1200px) {
+  .cus-d1 {
+      font-size: 80px!important;
+  }
 }
 
-.card-body{
-  background-color: #1E1E21;
+/* Heading */
+.cus-d2 {
+  font-size: 40px!important;
+}
+@media (min-width: 576px) {
+  .cus-d2 {
+      font-size: 48px!important;
+  }
 }
 
-.card-text{
-  font-weight: 300;
-  font-size: 28px;
-} */
+@media (min-width: 768px) {
+  .cus-d2 {
+      font-size: 56px!important;
+  }
+}
+@media (min-width: 992px) {
+      .cus-d2 {
+      font-size: 60px!important;
+  }
+}
+@media (min-width: 1200px) {
+  .cus-d2 {
+      font-size: 64px!important;
+  }
+}
+
+
+/* Paragraph */
+.txt-body {
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+/* Section */
+section {
+  padding: 96px 0;
+}
+
+@media (min-width: 576px) {
+  section {
+      padding: 136px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+      padding: 176px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+      padding: 176px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  section {
+      padding: 216px 0;
+  }
+}
+
+
+
 
 /* Phone */
 
@@ -55,31 +113,35 @@ body {
   width: 349.72px;
 }
 
-.video-txthead{
-  padding-left: 111.6px;
-  padding-right: 96px;
-  margin-top: 224px;
-  padding-bottom: 144px;
+
+/* Video */
+
+/* .video-js{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/* Why Fitmedik ? */
-
-/* .reason_card-title{
-  font-weight: 600;
-  font-size: 28px;
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  content: "  " !important;
 }
 
-.reason_card-text{
-  font-weight: 400;
-  font-size: 20px;
-  opacity: 0.6;
-}
-.reason_icon{
-  height: 96px;
-  width: 96px;
-  color: white;
+.vjs-poster{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) !important;
 }
 
-.reason_grid{
-  padding-right: 120px;
+.video-js .vjs-big-play-button  {
+  background-image: url("play-button.png");
+  background-repeat: no-repeat;
+  background-size: 84px;
+  background-position: 55% calc(50% - 0px);
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #f8f9fa00!important;
+  height: 92px !important;
 } */
+
+
+
+
+

@@ -1,0 +1,75 @@
+.contact-form {
+    background-color: #F55F4B;
+}
+
+.custom-input-2 {
+    height: 64px;
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, .20);
+    background-color: #fff;
+    padding: 0 24px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.custom-input-2:focus {
+    outline: none;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .custom-input-2 {
+        height: 72px;
+        padding: 0 32px;
+        font-size: 16px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .custom-input-2 {
+        height: 80px;
+        padding: 0 40px;
+        font-size: 20px;
+    }
+}
+
+.custom-textarea {
+    height: 112px;
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, .20);
+    background-color: #fff;
+    padding: 21.5px 24px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.custom-textarea:focus {
+    outline: none;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .custom-textarea {
+        height: 136px;
+        padding: 24px 32px;
+        font-size: 16px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .custom-textarea {
+        height: 160px;
+        padding: 25px 40px;
+        font-size: 20px;
+    }
+}

@@ -1,29 +1,28 @@
 import React from 'react';
 import VideoPlay from 'react-video-js-player';
 import video from './Dummy.mp4'
+import './video.css'
+
 
 const VideoJS = () => {
     const videoSrc = video;
-    const poster = "https://images.unsplash.com/photo-1523395243481-163f8f6155ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
+    const poster = "https://www.businessinsider.in/thumb/msid-83716190,width-700,height-525,imgsize-118040/lloyd-dirks-qdy76giybw8-unsplash.jpg";
 
     return (
-        <div className="row pb-5 gx-0">
-            <div className="col  video-txthead">
-                <b><h1 className='txt-head'>Pellentesque</h1>
-                    <h1 className='txt-head'>lacus orci</h1></b>
-                <p className='txt-body' style={{ paddingTop: " 40px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. </p>
-            </div>
-            <div className="col" style={{ marginTop: " 144px" }}>
-                <div>
-                    <VideoPlay
-                        src={videoSrc}
-                        poster={poster}
-                        width="673"
-                        height="448.67"
-                    />
+        <section>
+            <div className="container">
+                <div className="row d-flex align-items-center">
+                    <div className="col-md-6  video-txthead">
+                        <b><h1 className=' cus-d2'>Pellentesque</h1>
+                            <h1 className=' cus-d2'>lacus orci</h1></b>
+                        <h5 className='txt-body pt-4 lh-base' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. </h5>
+                    </div>
+                    <div className="col-md-6 ">
+                        <iframe src="https://player.vimeo.com/video/493370943?h=3f98cb151a" width="640"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
     );
 };
