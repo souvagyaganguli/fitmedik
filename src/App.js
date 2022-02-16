@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Phone from './components/Phone';
 import Reason from './components/Reasons/Reason';
 import VideoJS from './components/VideoJS/VideoJS';
 import Statistics from './components/Statistics/Statistics';
@@ -12,14 +11,15 @@ import Partners from './components/Partners/Partners';
 import Contact from './components/Contact_Form/Contact';
 import Footer from './components/Footer/Footer';
 import Copyright from './components/Footer/Copyright.js';
+import Appscreens from './components/App_Screen/Appscreens';
 
 function App() {
   return (
     <>
       <Navbar />
       <Statistics />
+      <Appscreens/>
       <Diseases />
-      {/* <Phone/> */}
       {/* <VideoJS /> */}
       <Benefits />
       <Reason />
