@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Reason from './components/Reasons/Reason';
@@ -12,11 +13,13 @@ import Contact from './components/Contact_Form/Contact';
 import Footer from './components/Footer/Footer';
 import Copyright from './components/Footer/Copyright.js';
 import Appscreens from './components/App_Screen/Appscreens';
+import Doctor_Game from './components/Doctor_Game/Doctor_Game';
 
 function App() {
   return (
     <>
       <Navbar />
+      <Doctor_Game />
       <Statistics />
       <Appscreens/>
       <Diseases />

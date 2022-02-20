@@ -1,0 +1,38 @@
+.doctor_container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+    background-color: bisque;
+}
+.doctor_container > * {
+    border: 1px solid black;
+}
+
+.left_doctor {
+    height: 60vh;
+    width: 20vw;
+    background-color: beige;
+}
+
+.shield {
+    height: 40vh;
+    width: 10vw;
+    background-color: beige;
+}
+
+.right_doctor {
+    height: 60vh;
+    width: 20vw;
+    background-color: beige;
+}
+
+.hover_point {
+    height: 5vh;
+    width: 5vw;
+    display: inline-block;
+    background-color: teal;
+    cursor: crosshair;
+    border: 1px solid black;
+}
