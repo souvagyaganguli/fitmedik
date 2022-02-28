@@ -38,7 +38,8 @@ export default function navbar() {
             <div className="container header-content d-flex">
                 <div className="row align-content-center align-items-center">
                     <div className="col-lg-6">
-                        <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>You take care of the WORLD, We take care of YOU.</h1>
+                        <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>SmartCare for Healthcare workers.</h1>
+                        <h5 class="txt-body pt-4 lh-base">Monitor, analyze & manage the staff burnouts in real-time to enhance your care delivery.</h5>
                         <form className="custom-input mt-3 mt-sm-4 mt-md-5" action="">
                             <input className="transparent-input" size="1" type="text" placeholder="Enter Email" />
                             <button type="button" className="custom-button">Join Waitlist</button>

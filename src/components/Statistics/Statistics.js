@@ -52,7 +52,7 @@ export default class Statistics extends Component {
                                 <div className="d-flex">
                                     <span className="card-title counter cus-d1 " data-number="86"></span> <span className='card-title cus-d1'>%</span>
                                 </div>
-                                <p className="card-text text-white fs-3">Experience <br /> Anxiety</p>
+                                <p className="card-text text-white fs-3">Experience <br /> Anxiety & Stress</p>
                             </div>
                         </div>
                         <div className="card">

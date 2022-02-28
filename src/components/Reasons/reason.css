@@ -1,8 +1,8 @@
 /* Why Fitmedik ? */
 
 .reason_card-title{
-    font-weight: 600;
     font-size: 28px;
+    opacity: 0.8;
   }
   
   .reason_card-text{

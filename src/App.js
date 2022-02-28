@@ -17,14 +17,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <Statistics />
-      <Appscreens/>
-      <Diseases />
-      {/* <VideoJS /> */}
-      <Benefits />
-      <Reason />
       <Hospital/>
       <Dashboard/>
+      {/* <Statistics /> */}
+      <Appscreens/>
+      <Benefits />
+      {/* <Diseases /> */}
+      <VideoJS />
+      <Reason />
       {/* <Partners/> */}
       <Contact/>
       <Footer/>

@@ -1,7 +1,45 @@
 import React, { Component } from 'react'
+import $ from 'jquery';
+
 import './reason.css'
 
 export default class Reason extends Component {
+    componentDidMount() {
+        var a = 0;
+        $(window).scroll(function () {
+            var oTop = $("#counter-box").offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() > oTop) {
+                $(".counter").each(function () {
+                    var $this = $(this),
+                        countTo = $this.attr("data-number");
+                    $({
+                        countNum: $this.text()
+                    }).animate(
+                        {
+                            countNum: countTo
+                        },
+
+                        {
+                            duration: 850,
+                            easing: "swing",
+                            step: function () {
+                                $this.text(
+                                    Math.ceil(this.countNum).toLocaleString("en")
+                                );
+                            },
+                            complete: function () {
+                                $this.text(
+                                    Math.ceil(this.countNum).toLocaleString("en")
+                                );
+                                //alert('finished');
+                            }
+                        }
+                    );
+                });
+                a = 1;
+            }
+        });
+    }
     render() {
         return (
             <section className='stats_bg'>
@@ -10,19 +48,23 @@ export default class Reason extends Component {
                     <div className="row row-cols-1 row-cols-md-2 " style={{ paddingTop: " 96px" }} >
                         <div className="col reason_grid line1" >
                             <div className="card">
-                                <div className="card-body">
-                                    <img src="Ellipse.png" alt="" height="80" />
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Lorem Ipsum</h5>
-                                    <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5>
+                                <div className="card-body" id="counter-box">
+                                    <div className="d-flex">
+                                        <span className="card-title counter cus-d1 " data-number="86"></span> <span className='card-title cus-d1'>%</span>
+                                    </div>
+                                    <h5 className="reason_card-title text-white pt-4 fs-3">Experience <br /> Anxiety & Stress</h5>
+                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
                                 </div>
                             </div>
                         </div>
                         <div className="col reason_grid line2" style={{ paddingLeft: " 60px" }}>
                             <div className="card">
-                                <div className="card-body ">
-                                <img src="Ellipse.png" alt="" height="80" />
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Lorem Ipsum</h5>
-                                    <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5>
+                                <div className="card-body" id="counter-box">
+                                    <div className="d-flex">
+                                        <span className='card-title cus-d1'>$</span><span className="card-title counter cus-d1 " data-number="7600"></span>
+                                    </div>
+                                    <h5 className="reason_card-title text-white pt-4 fs-3">Lost per medic <br /> per year</h5>
+                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
                                 </div>
                             </div>
                         </div>
@@ -30,19 +72,23 @@ export default class Reason extends Component {
                     <div className="row row-cols-1 row-cols-md-2 " >
                         <div className="col reason_grid line3">
                             <div className="card">
-                                <div className="card-body pt-5">
-                                <img src="Ellipse.png" alt="" height="80" />
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Lorem Ipsum</h5>
-                                    <h5 className="reason_card-text text-white txt-body pt-4 lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5>
+                                <div className="card-body pt-5" id="counter-box">
+                                    <div className="d-flex">
+                                        <span className="card-title counter cus-d1 " data-number="76"></span> <span className='card-title cus-d1'>%</span>
+                                    </div>
+                                    <h5 className="reason_card-title text-white pt-4 fs-3">Face Exhaustion <br /> and Burnout</h5>
+                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
                                 </div>
                             </div>
                         </div>
                         <div className="col reason_grid line4" style={{ paddingLeft: " 60px" }}>
                             <div className="card">
-                                <div className="card-body pt-5">
-                                <img src="Ellipse.png" alt="" height="80" />
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Lorem Ipsum</h5>
-                                    <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5>
+                                <div className="card-body pt-5" id="counter-box">
+                                    <div className="d-flex">
+                                        <span className="card-title counter cus-d1 " data-number="3"></span> <span className='card-title cus-d1'>&nbsp;years</span>
+                                    </div>
+                                    <h5 className="reason_card-title text-white pt-4 fs-3">Average staff<br /> turnover</h5>
+                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
                                 </div>
                             </div>
                         </div>
