@@ -52,8 +52,7 @@ export default class Reason extends Component {
                                     <div className="d-flex">
                                         <span className="card-title counter cus-d1 " data-number="86"></span> <span className='card-title cus-d1'>%</span>
                                     </div>
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Experience <br /> Anxiety & Stress</h5>
-                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
+                                    <h5 className="reason_card-title text-white pt-4">Experience <br /> Anxiety & Stress</h5>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +62,7 @@ export default class Reason extends Component {
                                     <div className="d-flex">
                                         <span className='card-title cus-d1'>$</span><span className="card-title counter cus-d1 " data-number="7600"></span>
                                     </div>
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Lost per medic <br /> per year</h5>
-                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
+                                    <h5 className="reason_card-title text-white pt-4">Lost per medic <br /> per year</h5>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +74,7 @@ export default class Reason extends Component {
                                     <div className="d-flex">
                                         <span className="card-title counter cus-d1 " data-number="76"></span> <span className='card-title cus-d1'>%</span>
                                     </div>
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Face Exhaustion <br /> and Burnout</h5>
-                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
+                                    <h5 className="reason_card-title text-white pt-4">Face Exhaustion <br /> and Burnout</h5>
                                 </div>
                             </div>
                         </div>
@@ -87,8 +84,7 @@ export default class Reason extends Component {
                                     <div className="d-flex">
                                         <span className="card-title counter cus-d1 " data-number="3"></span> <span className='card-title cus-d1'>&nbsp;years</span>
                                     </div>
-                                    <h5 className="reason_card-title text-white pt-4 fs-3">Average staff<br /> turnover</h5>
-                                    {/* <h5 className="reason_card-text text-white txt-body pt-4 lh-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum voluptate fuga.</h5> */}
+                                    <h5 className="reason_card-title text-white pt-4">Average staff<br /> turnover</h5>
                                 </div>
                             </div>
                         </div>

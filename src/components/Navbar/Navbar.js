@@ -16,26 +16,26 @@ export default function navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto" style={{fontSize: "18px"}}>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#" style={{fontWeight: "500"}}>Home</a>
+                                <a className="nav-link active" aria-current="page" href="#home" style={{fontWeight: "500"}}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Features</a>
+                                <a className="nav-link" href="#digitaltwin">Digital Twin</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Why Fitmedic</a>
+                                <a className="nav-link" href="#webdashboard">Web Dashboard</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Hospitals</a>
+                                <a className="nav-link" href="#appscreen">Mobile App</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Contact Us</a>
+                                <a className="nav-link" href="#contactus">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             {/* <!-- Navbar End --> */}
-            <div className="container header-content d-flex">
+            <div className="container header-content d-flex" id="home">
                 <div className="row align-content-center align-items-center">
                     <div className="col-lg-6">
                         <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>SmartCare for Healthcare workers.</h1>

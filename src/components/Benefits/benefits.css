@@ -16,3 +16,11 @@
         background-position: right bottom;
     }
 }
+
+.dashboard-benefits
+{
+    background-color: #1E1E21;
+}
+.benefit_card-title{
+    opacity: 0.8;
+}
