@@ -12,6 +12,11 @@
     font-size: 40px;
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .doctor_container > * {
+    display: none;
+  }
+}
 .doctor_container {
     /* height: 110vh; */
     /* width: 98vw; */
@@ -68,5 +73,6 @@ padding-inline-start: 10em;
     position: absolute;
 }
 .doctor_bottomtext {
+    padding-top: 5rem;
     text-align: center;
 }
