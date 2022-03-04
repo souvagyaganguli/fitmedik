@@ -12,15 +12,13 @@ import Contact from './components/Contact_Form/Contact';
 import Footer from './components/Footer/Footer';
 import Copyright from './components/Footer/Copyright.js';
 import Appscreens from './components/App_Screen/Appscreens';
-import Doctor_Game from './components/Doctor_Game/Doctor_Game';
-import Asset from './components/Asset';
-
+import DoctorGame from './components/Doctor_Game/Doctor_Game';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Doctor_Game />
+      <DoctorGame />
       {/* <Statistics /> */}
       <Asset/>
       <Hospital/>
