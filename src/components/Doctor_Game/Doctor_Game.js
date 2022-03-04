@@ -92,10 +92,10 @@ class DoctorGame extends Component {
   }
   render() {
     return (
-      <div className='doctor_container'>
-        <h1 className='doctor_head_text'>Fitmedik creates a data driven Digital Twin of the healthcare worker and simulates it
-          to predict health vulnerabilities.
-          Hospital management monitors the twins of their staff to improve operational efficiency.
+      <section className='doctor_container' id='digitaltwin'>
+        <h1 className='doctor_head_text'>
+          An IoT ecosystem for your hospital to monitor &
+          manage burnout of your workers in real-time.
         </h1>
         
       <div className='doctor_row'>
@@ -126,7 +126,17 @@ class DoctorGame extends Component {
           }
       </div>
       </div>
+      <div className='doctor_bottomtext'>
+        <p>
+        </p>
+        <h5 class="txt-body pt-4 lh-base">
+          Fitmedik creates a data driven Digital Twin of the healthcare worker and simulates it
+          to predict health vulnerabilities.
+          Hospital management monitors the twins of their staff to improve operational efficiency.
+        </h5>
+
       </div>
+      </section>
     )
   }
 }

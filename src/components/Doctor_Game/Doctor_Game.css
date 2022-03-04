@@ -10,6 +10,7 @@
 }
 .doctor_head_text {
     font-size: 40px;
+    text-align: center;
 }
 .doctor_container {
     /* height: 110vh; */
@@ -64,5 +65,8 @@ padding-inline-start: 10em;
 .doctor_clickanimation {
     top: 50px;
     left: 15px;
-position: absolute;
+    position: absolute;
+}
+.doctor_bottomtext {
+    text-align: center;
 }
