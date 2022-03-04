@@ -13,19 +13,18 @@ import Footer from './components/Footer/Footer';
 import Copyright from './components/Footer/Copyright.js';
 import Appscreens from './components/App_Screen/Appscreens';
 import DoctorGame from './components/Doctor_Game/Doctor_Game';
+import Asset from './components/Asset';
 
 function App() {
   return (
     <>
       <Navbar />
       <DoctorGame />
-      {/* <Statistics /> */}
       <Asset/>
       <Hospital/>
       <Dashboard/>
       <Appscreens/>
       <Benefits />
-      {/* <Diseases /> */}
       <VideoJS />
       <Reason />
       {/* <Partners/> */}

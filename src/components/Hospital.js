@@ -6,7 +6,7 @@ export default class Hospital extends Component {
             <section className="hospital" id="webdashboard">
             <div className="container">
                 <div className="row d-flex justify-content-center">
-                    <div className="col-12 col-lg-8">
+                    <div className="col-12">
                         <h1 className="cus-d2 text-center">Web-Dashboard for effective Hospital Management</h1>
                     </div>
                 </div>
