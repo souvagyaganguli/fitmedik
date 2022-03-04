@@ -43,3 +43,20 @@
     width: 100%;
     height: 100%;
   }
+
+  /* Responsive */
+
+
+  
+  @media (max-width: 768px) {
+    .box {
+        padding: 136px 0;
+    }
+  }
+  @media (max-width: 1200px) {
+    .box {
+        padding: 216px 0;
+    }
+  }
+  
+  

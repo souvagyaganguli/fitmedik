@@ -23,7 +23,7 @@ export default class Contact extends Component {
         };
         render() {
             return (
-                <section className="contact-form">
+                <section className="contact-form" id="contactus">
                     <div className="container">
                         <div className="row">
                             <h1 className="cus-d2" style={{ color: "#fff" }}>Get in touch</h1>

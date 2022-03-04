@@ -1,6 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+.background{
+  background-color: #1E1E21;
 }
 
 /* Statistics number */

@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Reason from './components/Reasons/Reason';
 import VideoJS from './components/VideoJS/VideoJS';
-import Statistics from './components/Statistics/Statistics';
 import Diseases from './components/Diseases_tracking/Diseases';
 import Benefits from './components/Benefits/Benefits';
 import Hospital from './components/Hospital';
@@ -14,13 +13,18 @@ import Footer from './components/Footer/Footer';
 import Copyright from './components/Footer/Copyright.js';
 import Appscreens from './components/App_Screen/Appscreens';
 import Doctor_Game from './components/Doctor_Game/Doctor_Game';
+import Asset from './components/Asset';
+
 
 function App() {
   return (
     <>
       <Navbar />
       <Doctor_Game />
-      <Statistics />
+      {/* <Statistics /> */}
+      <Asset/>
+      <Hospital/>
+      <Dashboard/>
       <Appscreens/>
       <Benefits />
       {/* <Diseases /> */}

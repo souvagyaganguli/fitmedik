@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Hospital extends Component {
     render() {
         return (
-            <section className="hospital">
+            <section className="hospital" id="webdashboard">
             <div className="container">
                 <div className="row d-flex justify-content-center">
                     <div className="col-12 col-lg-8">

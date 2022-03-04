@@ -4,7 +4,7 @@ import './appscreens.css'
 export default class Appscreens extends Component {
     render() {
         return (
-            <div className="content" >
+            <div className="content" id="appscreen">
                 <div className="div-text1">
                     <div className="div-text2">
                     <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>IoT enabled Mobile app for medics</h1>
