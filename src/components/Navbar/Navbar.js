@@ -46,7 +46,7 @@ export default function navbar() {
                         </form>
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center mt-5 mt-lg-0">
-                        <img src="/" alt="" style={{width: "90%"}} />
+                        <img src="headerimg.png" alt="" style={{width: "90%"}} />
                     </div>
                 </div>
             </div>
