@@ -4,7 +4,7 @@ import './benefits.css'
 export default class Dashboard extends Component {
     render() {
         return (
-            <section >
+            <section style={{paddingTop:"0"}}>
                 <div className="container">
                     <div className="row mb-4">
                         <h1 className="cus-d2">Benefits of using</h1>
