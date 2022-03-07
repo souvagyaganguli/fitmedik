@@ -12,14 +12,14 @@ import Contact from './components/Contact_Form/Contact';
 import Footer from './components/Footer/Footer';
 import Copyright from './components/Footer/Copyright.js';
 import Appscreens from './components/App_Screen/Appscreens';
-import DoctorGame from './components/Doctor_Game/Doctor_Game';
+import DigitalTwin from './components/DigitalTwin/DigitalTwin';
 import Asset from './components/Asset';
 
 function App() {
   return (
     <>
       <Navbar />
-      <DoctorGame />
+      <DigitalTwin />
       <Asset/>
       <Hospital/>
       <Dashboard/>

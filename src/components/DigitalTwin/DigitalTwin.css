@@ -8,15 +8,18 @@
     padding-top: 8em;
     /* background-color: bisque; */
 }
+
 .doctor_head_text {
     font-size: 40px;
     text-align: center;
 }
-@media screen and (max-width: 768px) {
-  .doctor_container > * {
-    display: none;
-  }
+
+@media screen and (max-width: 1200px) {
+    .doctor_container>* {
+        display: none;
+    }
 }
+
 .doctor_container {
     /* height: 110vh; */
     /* width: 98vw; */
@@ -27,9 +30,6 @@
     padding-bottom: 4em;
     padding-left: 8em;
     padding-right: 8em;
-}
-.doctor_container > * {
-    /* border: 1px solid black; */
 }
 
 .left_doctor {
@@ -53,25 +53,28 @@
 }
 
 .hover_point {
-    /* height: 5vh; */
-    /* width: 5vw; */
-    /* display: inline-block; */
-    /* background-color: teal; */
+    height: 5vh;
+    width: 5vw;
+    display: inline-block;
+    background-color: teal;
     cursor: crosshair;
     /* border: 1px solid black; */
-    /* opacity: 0; */
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
 }
 
 .doctor_statcontainer {
     top: 0px;
-position: absolute;
-padding-inline-start: 10em;
+    position: absolute;
 }
+
 .doctor_clickanimation {
     top: 50px;
     left: 15px;
     position: absolute;
 }
+
 .doctor_bottomtext {
     padding-top: 5rem;
     text-align: center;
