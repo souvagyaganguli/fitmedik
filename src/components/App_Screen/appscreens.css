@@ -63,6 +63,26 @@
     
   }
 
+  #appscreen_mob {
+    padding: 2rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    #appscreen {
+      display: none;
+    }
+    #appscreen_mob {
+      display: inherit;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    #appscreen {
+      display: flex;
+    }
+    #appscreen_mob {
+      display: none;
+    }
+  }
 
   /* Responsive */
   @media (min-width: 576px) {
