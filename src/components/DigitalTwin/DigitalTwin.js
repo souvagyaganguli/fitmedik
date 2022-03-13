@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './DigitalTwin.css';
 
-let imgBaseDir = "/img/doctorstats/";
+let imgBaseDir = "/img/digitaltwin/";
 
 class Hover_point extends Component {
   constructor(props) {
@@ -44,17 +44,17 @@ class DigitalTwin extends Component {
           <div className='left_doctor'
           >
             <img src={imgBaseDir + 'leftdoctor.png'} />
-            <div style={{top: 0}}>
+            <div style={{ top: 0 }}>
               <Hover_point
                 style={{ top: '0', left: '100px', height: '100px', width: '120px' }}
                 Tag='head' updater={this.statupdater} >
               </Hover_point>
               <Hover_point
-                style={{ top: '110px', left: '70px', height: '150px', width: '180px' }}
+                style={{ top: '100px', left: '70px', height: '150px', width: '180px' }}
                 Tag='body' updater={this.statupdater} >
               </Hover_point>
               <Hover_point
-                style={{ top: '270px', left: '70px', height: '200px', width: '180px' }}
+                style={{ top: '250px', left: '70px', height: '200px', width: '180px' }}
                 Tag='lower' updater={this.statupdater} >
               </Hover_point>
             </div>
@@ -73,27 +73,37 @@ class DigitalTwin extends Component {
             {
               this.state.stat == 'head' ?
                 <div className='doctor_statcontainer'
-                  style={{top: '0px', display: 'flex', left: '-80px'}}
+                  style={{ top: '0px', display: 'flex', left: '-80px' }}
                 >
-                  <img src={imgBaseDir + 'head_left.png'} />
-                  <img src={imgBaseDir + 'head_right.png'} />
+                  <div>
+                    <img src={imgBaseDir + 'head_left.png'} />
+                  </div>
+                  <div>
+                    <div style={{ height: '30px' }}></div>
+                    <img src={imgBaseDir + 'head_right.png'} />
+                  </div>
                 </div>
                 : ''
             }
             {
               this.state.stat == 'body' ?
                 <div className='doctor_statcontainer'
-                  style={{top: '100px', display: 'flex', left: '-80px'}}
+                  style={{ top: '100px', display: 'flex', left: '-80px' }}
                 >
-                  <img src={imgBaseDir + 'body_left.png'} />
-                  <img src={imgBaseDir + 'body_right.png'} />
+                  <div>
+                    <img src={imgBaseDir + 'body_left.png'} />
+                  </div>
+                  <div>
+                    <div style={{ height: '30px' }}></div>
+                    <img src={imgBaseDir + 'body_right.png'} />
+                  </div>
                 </div>
                 : ''
             }
             {
               this.state.stat == 'lower' ?
                 <div className='doctor_statcontainer'
-                  style={{top: '230px', left: '180px'}}
+                  style={{ top: '230px', left: '180px' }}
                 >
                   <img src={imgBaseDir + 'lower.png'} />
                 </div>
@@ -101,15 +111,15 @@ class DigitalTwin extends Component {
             }
           </div>
         </div>
+        <div className='doctor_row_mobile'>
+          <img src={imgBaseDir + 'rightdoctor_mobile.gif'} />
+        </div>
         <div className='doctor_bottomtext'>
-          <p>
-          </p>
-          <h5 class="txt-body pt-4 lh-base">
+          <h5 class="txt-body pt-2 lh-base">
             Fitmedik creates a data driven Digital Twin of the healthcare worker and simulates it
             to predict health vulnerabilities.
             Hospital management monitors the twins of their staff to improve operational efficiency.
           </h5>
-
         </div>
       </section>
     )
