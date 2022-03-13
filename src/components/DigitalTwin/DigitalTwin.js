@@ -112,7 +112,36 @@ class DigitalTwin extends Component {
           </div>
         </div>
         <div className='doctor_row_mobile'>
-          <img src={imgBaseDir + 'rightdoctor_mobile.gif'} />
+          <div style={{position: 'relative'}}>
+            <img src={imgBaseDir + 'rightdoctor.png'} />
+            <div className='doctor_statcontainer' id='mobstat1'
+              style={{ top: '0px', display: 'flex', left: '-80px' }}
+            >
+              <div>
+                <img src={imgBaseDir + 'head_left.png'} />
+              </div>
+              <div>
+                <div style={{ height: '30px' }}></div>
+                <img src={imgBaseDir + 'head_right.png'} />
+              </div>
+            </div>
+            <div className='doctor_statcontainer' id='mobstat2'
+              style={{ top: '100px', display: 'flex', left: '-80px' }}
+            >
+              <div>
+                <img src={imgBaseDir + 'body_left.png'} />
+              </div>
+              <div>
+                <div style={{ height: '30px' }}></div>
+                <img src={imgBaseDir + 'body_right.png'} />
+              </div>
+            </div>
+            <div className='doctor_statcontainer' id='mobstat3'
+              style={{ top: '230px', left: '180px' }}
+            >
+              <img src={imgBaseDir + 'lower.png'} />
+            </div>
+          </div>
         </div>
         <div className='doctor_bottomtext'>
           <h5 class="txt-body pt-2 lh-base">

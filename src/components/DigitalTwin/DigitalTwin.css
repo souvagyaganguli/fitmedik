@@ -27,11 +27,42 @@
 }
 
 .doctor_row_mobile {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    position: relative;
 }
+
+#mobstat1 {
+    opacity: 0;
+    animation: mobstat;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-delay: 0ms;
+}
+#mobstat2 {
+    opacity: 0;
+    animation: mobstat;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+#mobstat3 {
+    opacity: 0;
+    animation: mobstat;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-delay: 6s;
+}
+ @keyframes mobstat {
+  0% { transform: translateY(50px); opacity: 1; }
+  10% { transform: none;}
+  25% { opacity: 1;}
+  35% { opacity: 0;}
+  100% { opacity: 0; }
+ }
 
 .doctor_container {
     /* height: 110vh; */
