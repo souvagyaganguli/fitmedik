@@ -80,6 +80,12 @@
 .doctor_statcontainer {
     top: 0px;
     position: absolute;
+    animation: statfade 500ms;
+}
+
+@keyframes statfade {
+  0% { transform: translateY(50px); }
+  100% { transform: none; }
 }
 
 .doctor_clickanimation {
