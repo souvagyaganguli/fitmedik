@@ -18,11 +18,21 @@
     .doctor_container>.doctor_row {
         display: none;
     }
+    .doctor_container {
+        overflow: hidden;
+    }
+    .doctor_row_mobile {
+        transform: scale(0.8);
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .doctor_container>.doctor_row_mobile {
         display: none;
+    }
+    .doctor_container {
+        padding-left: 8em;
+        padding-right: 8em;
     }
 }
 
@@ -72,8 +82,8 @@
     flex-direction: column;
     padding-top: 2em;
     padding-bottom: 4em;
-    padding-left: 8em;
-    padding-right: 8em;
+    /* padding-left: 8em; */
+    /* padding-right: 8em; */
 }
 
 .left_doctor {
