@@ -32,7 +32,6 @@ export default class Appscreens extends Component {
                 </div>
             </div>
             <div className="content" id="appscreen_mob">
-                <h5>mobile</h5>
                 <div>
                     <h1 className="display-2 cus-d2 text-white" style={{fontWeight: "600"}}>IoT enabled Mobile app for medics</h1>
                     <h5 className="txt-body text-white pt-4 pb-4 lh-base">Fitmedik ensures your health and well being of healthcare workers through a tailor-made mobile app which monitors their heart rate and sleep cycles through a wearable. </h5>
