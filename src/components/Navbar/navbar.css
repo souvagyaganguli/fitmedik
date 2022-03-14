@@ -57,6 +57,11 @@
 }
 
 
+@media screen and (max-width: 576px) {
+    #home {
+        overflow: hidden;
+    }
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {

@@ -35,7 +35,7 @@ export default function navbar() {
                 </div>
             </nav>
             {/* <!-- Navbar End --> */}
-            <div className="container header-content d-flex" id="home" style={{overflow: 'hidden'}}>
+            <div className="container header-content d-flex" id="home" >
                 <div className="row align-content-center align-items-center" style={{flexWrap: 'nowrap'}}>
                     <div className="col-lg-6 ">
                         <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>SmartCare for Healthcare workers.</h1>
