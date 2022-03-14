@@ -52,7 +52,7 @@ export default class Reason extends Component {
                                     <div className="d-flex">
                                         <span className="card-title counter cus-d1 " data-number="86"></span> <span className='card-title cus-d1'>%</span>
                                     </div>
-                                    <h5 className="reason_card-title text-white pt-4">Experience <br /> Anxiety & Stress</h5>
+                                    <h5 className="reason_card-title text-white pt-4">Medics Experience <br /> Anxiety & Stress</h5>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ export default class Reason extends Component {
                                     <div className="d-flex">
                                         <span className="card-title counter cus-d1 " data-number="76"></span> <span className='card-title cus-d1'>%</span>
                                     </div>
-                                    <h5 className="reason_card-title text-white pt-4">Face Exhaustion <br /> and Burnout</h5>
+                                    <h5 className="reason_card-title text-white pt-4">Medics Face Exhaustion <br /> and Burnout</h5>
                                 </div>
                             </div>
                         </div>
