@@ -43,7 +43,7 @@ export default class Appscreens extends Component {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div style={{paddingTop: "2rem"}}>
                     <h1 className="display-2 cus-d2 text-white" style={{fontWeight: "600"}}>Monitor vulnerabilities</h1>
                     <h5 className="txt-body text-white pt-4 pb-4 lh-base">Fitmedik make healthcare workers aware about how vulnerable their health profile is to a certain disease through various Artificial Intelligence and Machine Learning Algorithms. </h5>
                     <div className="div-1">
@@ -54,10 +54,10 @@ export default class Appscreens extends Component {
                         </div>
                     </div>
                 </div>
-                <div >
+                <div style={{paddingTop: "2rem"}}>
                     <h1 className="display-2 cus-d2 text-white" style={{fontWeight: "600"}}>On-demand access to care</h1>
                     <h5 className="txt-body text-white pt-4 pb-4 lh-base">Fitmedik provides access to best Mental health and well being experts to the healthcare workers. Through anonymity and confidentiality, we break the barriers which medics face as patients. </h5>
-                    <div className="div-1">
+                    <div className="div-1" style={{paddingTop: "2rem"}}>
                         <div className="div-2">
                             <div className="div-3">
                                 <img style={{display: "none"}} src="/" id="pic3" />
