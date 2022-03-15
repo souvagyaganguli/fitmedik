@@ -36,7 +36,8 @@ export default function navbar() {
             </nav>
             {/* <!-- Navbar End --> */}
             <div className="container header-content d-flex" id="home" >
-                <div className="row align-content-center align-items-center" style={{flexWrap: 'nowrap'}}>
+                {/* <div className="row align-content-center align-items-center" style={{flexWrap: 'nowrap'}}> */}
+                <div className="row align-content-center align-items-center" >
                     <div className="col-lg-6 ">
                         <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>SmartCare for Healthcare workers.</h1>
                         <h5 class="txt-body pt-4 lh-base">Monitor, analyze & manage the staff burnouts in real-time to enhance your care delivery.</h5>
@@ -45,11 +46,12 @@ export default function navbar() {
                             <button type="button" className="custom-button">Join Waitlist</button>
                         </form>
                     </div>
-                    <div className="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center" >
-                        <img src="headerimg.png" alt="" style={{width: "90%", transform: 'scale(1.5)', overflow: 'clip'}}/>
+                    <div className="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center" id="homeimg" >
+                        {/* <img src="headerimg.png" alt="" style={{width: "90%", transform: 'scale(1.5)', overflow: 'clip'}}/> */}
+                        <img src="headerimg.png" alt="" />
                     </div>
                 </div> 
-             </div>
+            </div>
         </div>
     )
 }

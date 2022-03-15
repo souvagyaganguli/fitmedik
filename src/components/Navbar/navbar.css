@@ -57,9 +57,25 @@
 }
 
 
-@media screen and (max-width: 576px) {
-    #home {
+@media screen and (max-width: 992px) {
+    /* #home {
         overflow: hidden;
+    } */
+    #homeimg > img {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    /* #home {
+        overflow: hidden;
+    } */
+    #homeimg > img {
+        transform: scale(0.8);
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        overflow-inline: hidden;
     }
 }
 /* Small devices (landscape phones, 576px and up) */
