@@ -13,7 +13,11 @@ export default class VideoJS extends Component {
                             <h1 className='cus-d2'><span style={{color: 'rgb(245, 95, 75)'}} >Improved</span> Lives!</h1>
                         </div>
                         <div className=" col-md-6 col-sm-12 col-12 videowrapper" >
-                            <iframe src="https://player.vimeo.com/video/493370943?h=3f98cb151a" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
+                            <iframe 
+                            width="560" height="315" 
+                            src="https://www.youtube-nocookie.com/embed/penEf8ghaYE?controls=1&rel=0" 
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                         </div>
                     </div>
                 </div>
