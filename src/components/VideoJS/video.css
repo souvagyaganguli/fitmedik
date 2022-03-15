@@ -28,7 +28,7 @@
     padding-bottom: 144px;
   } */
   
-  .videowrapper{
+  /* .videowrapper{
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25%;
@@ -38,15 +38,15 @@
     position: relative;
     left: 0px;
     right: 0px;
-    /* top: 0px; */
-    /* bottom: 0px; */
+    top: 0px;
+    bottom: 0px;
     width: 100%;
-    /* height: 100%; */
-  }
+    height: 100%;
+  } */
 
   /* Responsive */
 
-
+/* 
   @media screen and (max-width: 768px) {
     .videowrapper iframe {
       height: 100%;
@@ -58,12 +58,8 @@
     .videowrapper {
       margin-bottom: 10rem;
     }
-  }
-   @media screen and (min-width: 768px) {
-    .videowrapper iframe {
-      margin-left: 2rem;
-    }
-  } 
+  } */
+  
   /* @media (max-width: 768px) {
     .box {
         padding: 136px 0;
@@ -76,3 +72,9 @@
   } */
   
   
+ 
+  .iframe-video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}

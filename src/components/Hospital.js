@@ -17,7 +17,7 @@ export default class Hospital extends Component {
                 </div>
                 <div className="row d-flex justify-content-center mt-2 mt-md-3 mt-lg-4">
                     <div className="col-12 col-md-10 col-lg-8">
-                        <img src="hospital-screen.svg" alt="" style={{width: "100%"}}/>
+                        <img src="dashboard.gif" alt="" style={{width: "100%"}}/>
                     </div>
                 </div>
             </div>

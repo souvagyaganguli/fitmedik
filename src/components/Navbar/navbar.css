@@ -56,6 +56,13 @@
     align-self: center;
 }
 
+.headerimg{
+    position: relative;
+    width: 50vw;
+    right: 0px;
+    margin-left: auto;
+}
+
 
 @media screen and (max-width: 992px) {
     /* #home {

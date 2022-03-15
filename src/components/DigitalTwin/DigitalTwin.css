@@ -31,8 +31,8 @@
         display: none;
     }
     .doctor_container {
-        padding-left: 8em;
-        padding-right: 8em;
+        /* padding-left: 8em;
+        padding-right: 8em; */
     }
 }
 
@@ -94,7 +94,7 @@
 }
 
 .shield {
-    /* height: 40vh; */
+    height: 75vh;
     /* width: 10vw; */
     /* background-color: beige; */
 }
@@ -136,6 +136,7 @@
 }
 
 .doctor_bottomtext {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
+    margin-top: -1rem;
     text-align: center;
 }

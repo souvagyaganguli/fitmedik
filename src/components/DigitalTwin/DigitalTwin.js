@@ -34,7 +34,9 @@ class DigitalTwin extends Component {
   }
   render() {
     return (
-      <section className='doctor_container' id='digitaltwin'>
+      <section>
+      <div className="container overflow-hidden">
+      <div className='doctor_container' id='digitaltwin'>
         <h1 className='doctor_head_text'>
           An IoT ecosystem for your hospital to monitor &
           manage burnout of your workers in real-time.
@@ -150,6 +152,8 @@ class DigitalTwin extends Component {
             Hospital management monitors the twins of their staff to improve operational efficiency.
           </h5>
         </div>
+      </div>
+      </div>
       </section>
     )
   }

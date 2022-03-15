@@ -60,7 +60,7 @@ export default class Appscreens extends Component {
                     <div className="div-1" style={{paddingTop: "2rem"}}>
                         <div className="div-2">
                             <div className="div-3">
-                                <img style={{display: "none"}} src="/" id="pic3" />
+                                <img style={{display: "none"}} src="Screen 3.png" id="pic3" />
                             </div>
                         </div>
                     </div>

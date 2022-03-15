@@ -3,7 +3,7 @@ import './navbar.css'
 
 export default function navbar() {
     return (
-        <div className="header-bg">
+        <div className="header-bg overflow-hidden">
             {/* <!-- Navbar Start --> */}
             <nav className="navbar navbar-expand-lg navbar-light pt-xl-4 pt-lg-3 pt-md-2 pt-sm-1">
                 <div className="container">
@@ -36,8 +36,7 @@ export default function navbar() {
             </nav>
             {/* <!-- Navbar End --> */}
             <div className="container header-content d-flex" id="home" >
-                {/* <div className="row align-content-center align-items-center" style={{flexWrap: 'nowrap'}}> */}
-                <div className="row align-content-center align-items-center" >
+                <div className="row align-content-center align-items-center">
                     <div className="col-lg-6 ">
                         <h1 className="display-2 cus-d2" style={{fontWeight: "600"}}>SmartCare for Healthcare workers.</h1>
                         <h5 class="txt-body pt-4 lh-base">Monitor, analyze & manage the staff burnouts in real-time to enhance your care delivery.</h5>
@@ -46,9 +45,9 @@ export default function navbar() {
                             <button type="button" className="custom-button">Join Waitlist</button>
                         </form>
                     </div>
-                    <div className="col-lg-6 d-flex mt-5 mt-lg-0 justify-content-center" id="homeimg" >
-                        {/* <img src="headerimg.png" alt="" style={{width: "90%", transform: 'scale(1.5)', overflow: 'clip'}}/> */}
-                        <img src="headerimg.png" alt="" />
+                    <div className="col-lg-6 mt-5 mt-lg-0 justify-content-center" >
+                        <img className="headerimg d-none d-lg-block" src="headerimg.png" alt=""/>
+                        <img className="d-block d-lg-none" src="headerimgmobile.png" style={{width:"100%"}} alt=""/>
                     </div>
                 </div> 
             </div>
